@@ -1,0 +1,20 @@
+{
+  "name": "react-ui639",
+  "version": "1.0.0",
+  "description": "react-ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cola639/react-ui639.git"
+  },
+  "keywords": [],
+  "author": "cola639",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cola639/react-ui639/issues"
+  },
+  "homepage": "https://github.com/cola639/react-ui639#readme"
+}
