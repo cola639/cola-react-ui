@@ -10,6 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/cola639/react-ui639.git"
   },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
   "keywords": [],
   "author": "cola639",
   "license": "MIT",
