@@ -1,5 +1,3 @@
-export const Requirements = () =>{
-    return(
-        <div>Hello World</div>
-    )
+export const RequirementsTemplate = () => {
+  return <div>Hello World</div>
 }

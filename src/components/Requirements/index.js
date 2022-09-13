@@ -1,1 +1,1 @@
-export * from './Requirements';
+export { RequirementsTemplate } from './Requirements'
