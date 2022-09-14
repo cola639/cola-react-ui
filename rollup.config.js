@@ -9,11 +9,11 @@ export default [
     input: './src/index.js',
     output: [
       {
-        file: 'UIcomponents/index.js',
+        file: 'dist/index.js',
         format: 'cjs',
       },
       {
-        file: 'UIcomponents/index.es.js',
+        file: 'dist/index.es.js',
         format: 'es',
         exports: 'named',
       },
