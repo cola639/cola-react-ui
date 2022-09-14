@@ -1,6 +1,6 @@
 import '../../styles.css'
 import { Requirement } from '../Requirement'
-import React, { useCallback, useEffect } from 'react'
+import { useCallback, useEffect } from 'react'
 
 export const RequirementsForm = ({ value, requirements, onValidChange }) => {
   const validChangeCb = useCallback(onValidChange, [])
