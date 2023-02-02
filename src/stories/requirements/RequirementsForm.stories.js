@@ -1,30 +1,30 @@
-import React, { useState } from 'react'
-import { storiesOf } from '@storybook/react'
-import './styles.css'
-import { RequirementsForm } from '../components/RequirementsForm'
+import React, { useState } from "react"
+import { storiesOf } from "@storybook/react"
+import "./styles.css"
+import { RequirementsForm } from "../../components/RequirementsForm"
 
-const stories = storiesOf('App Component', module)
+const stories = storiesOf("App Component", module)
 
-stories.add('App', () => {
+stories.add("App", () => {
   const [valid, setValid] = useState(false)
-  const [password, setPassword] = useState('')
-  const [username, setUsername] = useState('')
+  const [password, setPassword] = useState("")
+  const [username, setUsername] = useState("")
 
   const passwordRequirements = [
     {
-      text: 'Must be at least 8 characters',
+      text: "Must be at least 8 characters",
       validator: (val) => val.length >= 8,
     },
     {
-      text: 'Must contain at least one number',
+      text: "Must contain at least one number",
       validator: (val) => /\d/g.test(val),
     },
     {
-      text: 'Must contain at least one lower-case letter',
+      text: "Must contain at least one lower-case letter",
       validator: (val) => /[a-z]/g.test(val),
     },
     {
-      text: 'Must contain at least one upper-case letter',
+      text: "Must contain at least one upper-case letter",
       validator: (val) => /[A-Z]/g.test(val),
     },
   ]
