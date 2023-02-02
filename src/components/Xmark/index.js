@@ -1,1 +1,1 @@
-export * from './Xmark';
+export * from './Xmark'

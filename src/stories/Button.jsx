@@ -1,12 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './button.css';
+import React from 'react'
+
+import PropTypes from 'prop-types'
+import './button.css'
 
 /**
  * Primary UI component for user interaction
  */
 export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary'
   return (
     <button
       type="button"
@@ -16,8 +17,8 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
     >
       {label}
     </button>
-  );
-};
+  )
+}
 
 Button.propTypes = {
   /**
@@ -39,12 +40,12 @@ Button.propTypes = {
   /**
    * Optional click handler
    */
-  onClick: PropTypes.func,
-};
+  onClick: PropTypes.func
+}
 
 Button.defaultProps = {
   backgroundColor: null,
   primary: false,
   size: 'medium',
-  onClick: undefined,
-};
+  onClick: undefined
+}

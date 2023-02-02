@@ -1,2 +1,2 @@
-export { RequirementsTemplate } from './components/Requirements'
-export { RequirementsForm } from './components/RequirementsForm'
+export { RequirementsTemplate } from '../src/components/Requirements'
+export { RequirementsForm } from '../src/components/RequirementsForm'

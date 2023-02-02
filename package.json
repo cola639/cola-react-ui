@@ -15,7 +15,9 @@
     "type": "git",
     "url": "git+https://github.com/cola639/react-ui639.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@rollup/plugin-alias": "^4.0.3"
+  },
   "bundleDependencies": false,
   "deprecated": false,
   "devDependencies": {

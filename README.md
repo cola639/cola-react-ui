@@ -8,7 +8,7 @@
 |  ├── UploadFiles                              
 |  ├── UploadImages                             
 |  └── Xmark                                
-├── index.js                            打包出口                     
+├── index.js                            打包文件出口                     
 └── stories                             stories 展示                  
    ├── assets                               
    ├── button.css                       

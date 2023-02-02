@@ -1,1 +1,1 @@
-export * from './Checkmark';
+export * from './Checkmark'

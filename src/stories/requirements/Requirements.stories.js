@@ -1,8 +1,8 @@
-import { storiesOf } from "@storybook/react"
-import { RequirementsTemplate } from "../../components/Requirements"
+import { storiesOf } from '@storybook/react'
+import { RequirementsTemplate } from '../../components/Requirements'
 
-const stories = storiesOf("App Hello", module)
+const stories = storiesOf('App Hello', module)
 
-stories.add("App1", () => {
+stories.add('Hello', () => {
   return <RequirementsTemplate />
 })
